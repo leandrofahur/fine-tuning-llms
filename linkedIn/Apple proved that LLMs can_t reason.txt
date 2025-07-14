@@ -1,0 +1,26 @@
+Apple proved that LLMs can't reason and I don't care much.
+
+To understand Apple's research we need to understand how LLM's performance is evaluated.
+
+Most benchmarks are based on standardized tests where LLMs are asked questions and need to pick an answer from a list.
+
+A question might be "Sophie has a bag with 31 toys. 9 are stuffed animals, 8 are wooden toys and the rest are bouncing balls. How many bouncy balls are in the bag?"
+
+❓What did Apple test?
+Apple tried shuffling variables to see what happens (eg switching "Sophie" with "Carol", "toys" with "fruits", "31" with "46", etc.)
+
+All models started performing noticeably worse, as you can see in the image. 
+
+❓Why does this happen?
+The main hypothesis is "data contamination": it's possible that some of these tests ended up in the training set so the LLM has memorized its solution, but doesn't generalize to other cases. 
+
+This would mean that AI models don't truly reason, but they have just memorized answers to questions.
+
+❓Why do I NOT care (today)?
+Because even if AI models can't generalize, all I care about is how useful they might be. 
+
+If an LLM can solve a problem, I don't care if it can solve it because it's "truly intelligent" or if it's solving it because it's read something similar to the solution when it was trained.
+
+In other words, business value is created by the output, not the process that led to it.
+
+Obviously, the research is more problematic for the AGI believers and for whoever thinks that throwing huge compute at the problem will lead to some form of superintelligence, but that's another story.

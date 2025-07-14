@@ -1,0 +1,21 @@
+🚨 𝐘𝐨𝐮𝐫 𝐀𝐈 𝐢𝐬 𝐬𝐞𝐜𝐫𝐞𝐭𝐥𝐲 𝐛𝐮𝐫𝐧𝐢𝐧𝐠 𝐜𝐚𝐬𝐡.🚨
+
+Imagine asking, “Who was the captain of the Titanic?” and your AI goes:“
+
+Sure, let me solve this Sudoku and a Markov Decision Process first.”
+
+Ridiculous, right? 
+
+But that’s exactly what’s happening with OVERTHINK attacks on reasoning-based LLMs. 
+
+Here’s the scam:
+
+➡️ Hackers inject hidden tasks like puzzles or advanced equations into prompts.
+
+➡️ The AI wastes expensive tokens solving irrelevant problems.
+
+➡️ You get a normal answer while your API bill skyrockets and response time crawls.
+
+The worst part? 
+
+It’s invisible to users but painfully visible on your wallet.💬

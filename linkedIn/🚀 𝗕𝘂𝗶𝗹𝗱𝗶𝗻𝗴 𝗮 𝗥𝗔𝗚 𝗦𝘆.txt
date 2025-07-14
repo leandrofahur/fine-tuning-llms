@@ -1,0 +1,18 @@
+🚀 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗮 𝗥𝗔𝗚 𝗦𝘆𝘀𝘁𝗲𝗺? 𝗛𝗲𝗿𝗲’𝘀 𝗛𝗼𝘄 𝘁𝗼 𝗗𝗼 𝗜𝘁 𝗥𝗶𝗴𝗵𝘁!
+
+If your AI is out here making up answers like a bad improv actor, it’s time to fix that. 
+
+𝗥𝗔𝗚 (Retrieval Augmented Generation) is the solution, and I just dropped a 𝘴𝘵𝘦𝘱-𝘣𝘺-𝘴𝘵𝘦𝘱 𝘵𝘶𝘵𝘰𝘳𝘪𝘢𝘭 on how to build one from scratch—using only open-source tools. 
+
+🛠️ What you’ll learn: 
+✅ How to set up a RAG system without breaking a sweat 
+✅ Storing and retrieving 𝗼𝗻𝗹𝘆 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 (no AI hallucinations here) 
+✅ Making an LLM 𝘀𝘁𝗶𝗰𝗸 𝘁𝗼 𝘁𝗵𝗲 𝗳𝗮𝗰𝘁𝘀 like a disciplined student (not the class clown) 
+
+Think of RAG like 𝗰𝗵𝗲𝗮𝘁𝗶𝗻𝗴 𝗼𝗻 𝗮𝗻 𝗲𝘅𝗮𝗺—𝗯𝘂𝘁 𝘀𝗺𝗮𝗿𝘁𝗹𝘆. 
+
+Instead of relying on some random LLM’s half-baked memory, you 𝗽𝗶𝗰𝗸 𝘆𝗼𝘂𝗿 𝗱𝗮𝘁𝗮, store it properly, and let your model copy from the best source possible.
+
+𝘕𝘰 𝘨𝘶𝘦𝘴𝘴𝘸𝘰𝘳𝘬, 𝘯𝘰 𝘯𝘰𝘯𝘴𝘦𝘯𝘴𝘦.
+
+🎥 Watch it here: https://lnkd.in/dBtpucBD

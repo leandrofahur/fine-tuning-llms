@@ -1,0 +1,13 @@
+AI looks smart. 
+
+Until you change the question.
+
+Apple dropped a research paper showing most LLMs (yes, even GPT-4o) aren’t really “reasoning” — they’re pattern-matching.
+
+Change a name. 
+
+Add a useless detail.
+
+ Watch them fail.
+
+I break it down here → https://lnkd.in/dHpQef2g
