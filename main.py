@@ -1,16 +1,23 @@
-# Import libs:
+# In your main.py or any other file
+from fine_tuning_pipeline import FineTuningPipeline
 import os
-from os.path import isfile, join
-import re
-from openai import OpenAI
-import json
-from dotenv import load_dotenv
 
-# Load env variables:
-load_dotenv()
+# Initialize
+api_key = os.getenv("OPENAI_API_KEY")
+pipeline = FineTuningPipeline(api_key)
 
-# Connect to the OpenAI API:
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-MODEL = "gpt-4.1"
+# Run the complete pipeline
+train_file_id, validation_file_id = pipeline.run_full_pipeline()
+
+# Create fine-tuning job
+job_id = pipeline.create_fine_tuning_job(train_file_id, validation_file_id)
+
+# Later, use the fine-tuned model
+model_id = pipeline.get_fine_tuned_model_id(job_id)
+generated_text = pipeline.generate_with_fine_tuned_model(model_id, user_prompt)
+
+
+
+
 
 
