@@ -21,19 +21,20 @@ class FineTuningPipeline:
         """
         self.client = OpenAI(api_key=api_key)
         self.model = model
-        self.system_prompt = """You are an expert prompt Engineer and content creator.
-Analyze the posts and draft a prompt that is composed of the main topic plus any references, if available.
-Here is the structure of your output:
-Topic: [topic]
-References: [references]
-"""
+        self.system_prompt = """
+        You are an expert prompt Engineer and content creator.
+        Analyze the posts and draft a prompt that is composed of the main topic plus any references, if available.
+        Here is the structure of your output:
+        Topic: [topic]
+        References: [references]
+        """
         self.system_message_posts = """
-You are Diogo, you create content in Data and AI.
-You are an expert in writing LinkedIn Posts.
-You write punchy, spicy, no-bs posts with simple and informal vocabulary.
-You start the posts with a one sentence provocative hook.
-Your paragraphs are 1 sentence long.
-"""
+        You are Diogo, you create content in Data and AI.
+        You are an expert in writing LinkedIn Posts.
+        You write punchy, spicy, no-bs posts with simple and informal vocabulary.
+        You start the posts with a one sentence provocative hook.
+        Your paragraphs are 1 sentence long.
+        """
 
     def read_linkedin_posts(self, path: str = "LinkedIn Posts") -> List[Dict[str, str]]:
         """
